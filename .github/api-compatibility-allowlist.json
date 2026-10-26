@@ -152,6 +152,12 @@
     },
     {
       "against": "v2.61.0",
+      "fingerprint": "8cb8cd8599117122d06cdb06c3f0113ddd97f018c56417a2dd65310dd85c2439",
+      "reason": "clai2 0.x: adds the built-in `hooks` declaration to `DEFAULT_PLUGINS`; every existing declaration is unchanged.",
+      "pull_request": "https://github.com/pydantic/pydantic-ai/pull/11423"
+    },
+    {
+      "against": "v2.61.0",
       "fingerprint": "8842bee80f7315ab3785fec9a9d57e18667e8bc5502dae4fe57700c5cf2fc888",
       "reason": "Adds `CompactionPart` to `ModelRequestPart`, for a summary the application or a harness strategy wrote, alongside the `ModelSettingsDeltaPart` added in #11111 (one combined change to the union since v2.61.0); the version policy permits new message parts, and every existing member is unchanged.",
       "pull_request": "https://github.com/pydantic/pydantic-ai/pull/10573"
