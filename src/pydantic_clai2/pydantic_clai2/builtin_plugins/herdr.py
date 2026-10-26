@@ -20,7 +20,7 @@ from pydantic_ai.capabilities import (
 from pydantic_ai.messages import ToolCallPart
 from pydantic_ai_harness.ask_user import AskUserAnsweredEvent, AskUserRequestedEvent
 from pydantic_ai_harness.compaction import ContextUsageEvent
-from pydantic_clai2.builtin_plugins._herdr_client import HerdrClient
+from pydantic_clai2.builtin_plugins.herdr_client import HerdrClient
 from pydantic_clai2.plugins import (
     ConversationChanged,
     NoSettings,
@@ -31,7 +31,7 @@ from pydantic_clai2.plugins import (
     TurnEnd,
     TurnStart,
 )
-from pydantic_clai2.runtime._session import Session
+from pydantic_clai2.runtime.session import Session
 from pydantic_clai2.ui.rendering.usage_report import session_usage
 
 
